@@ -22,7 +22,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 <div class="sidebar">
     <h2>Sidebar</h2>
     <ul id="side">
-        <li><a href="add_patient.php">Patient/Customer</a></li>
+        <li><a href="add_patient.php">Patient/Customers</a></li>
         <li><a href="stock.php">Inventory/Stock</a></li>
         <li><a href="med_list.php">Medicine List</a></li>
         <li><a href="create_invoice.php">Invoices</a></li>
