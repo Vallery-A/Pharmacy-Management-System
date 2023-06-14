@@ -22,7 +22,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 <div class="sidebar">
     <h2>Sidebar</h2>
     <ul id="side">
-        <li><a href="add_patient.php">Patient/Customers</a></li>
+        <li><a href="add_patient.php">Patient/Customer</a></li>
         <li><a href="stock.php">Inventory/Stock</a></li>
         <li><a href="med_list.php">Medicine List</a></li>
         <li><a href="create_invoice.php">Invoices</a></li>
@@ -50,7 +50,38 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
     
     <h1>Content</h1>
-        <table>
+    <div class="row">
+      <div class="card card1">
+      <h2>Welcome to the Website</h2>
+        <p>Logged in as: John Doe</p>
+      </div>
+      
+      <div class="card card2">
+        <h2>Total Sales</h2>
+        <p>$10,000</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card card3">
+      <h2>Welcome to the Website</h2>
+        <p>Logged in as: John Doe</p>
+      </div>
+      
+      <div class="card card4">
+        <h2>Total Sales</h2>
+        <p>$10,000</p>
+      </div>
+      
+      <div class="card card5">
+        <h2>Total Sales</h2>
+        <p>$10,000</p>
+      </div>
+   
+    </div>
+
+
+    <table>
             <caption>Pharmacy Patients</caption>
             <thead>
                 <tr>

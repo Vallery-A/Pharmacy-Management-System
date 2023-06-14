@@ -270,6 +270,64 @@ button[type="submit"]:hover {
     background-color: #45a049;
 }
 
+.row {
+  display: flex;
+  widh:1000px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  flex: 1;
+  border: 1px dotted #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius:10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin-left:20px;
+}
+
+.card1 {
+  flex: 6;
+}
+
+.card2 {
+  flex: 4;
+  background-image: url(assets\pictures\welcome.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  flex: 5;
+}
+
+.card4 {
+  flex: 3;
+}
+
+.card5 {
+  flex: 2;
+  background-color: #CAF0F8;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.card2 img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 
